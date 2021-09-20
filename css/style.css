@@ -723,7 +723,11 @@ portfolio section
 .portfolio-item-details{
     display: none;
 }
-
+.portfolio-item-details ul li a{
+    text-transform: none;
+    text-decoration: none;
+    color: var(--main-color);
+}
 /* Portfolio-Popu*/
 .portfolio-popup{
     position: fixed;
@@ -957,3 +961,4 @@ portfolio section
         order: 1;
     }
 }
+
